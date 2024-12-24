@@ -73,7 +73,7 @@ p {color: #fff; font-weight: bold;}
 <center>
 <h1>Your IP has been banned</h1>
 <p>If you think this is a mistake, please contact the website owner</p>
-<a href="#">DDoS Protection by Cloudflare</a>
+<a href="#">DDoS Protection by ProfessorJarIO</a>
 <center>
 </div>
 
