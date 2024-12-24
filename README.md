@@ -3,10 +3,10 @@
 ALL CREDIT GOES TOWARDS THE ORIGINAL CREATOR: (https://github.com/C0nw0nk/Nginx-Lua-Anti-DDoS). This is simply a modified version of C0nw0nk's original script. I just made some modifications on the JS challenge
 
 ## Images
-![Captcha Page](https://github.com/ProfessorJarIO/Lua-Anti-DDoS/blob/main/Captcha1.jpg)
-![Captcha Page Fail](https://github.com/ProfessorJarIO/Lua-Anti-DDoS/blob/main/Captcha2.jpg)
-![Captcha Page Success](https://github.com/ProfessorJarIO/Lua-Anti-DDoS/blob/main/Captcha3.jpg)
-![Captcha Cookies](https://github.com/ProfessorJarIO/Lua-Anti-DDoS/blob/main/Cookies.jpg)
+![Captcha Page](https://github.com/ProfessorJarIO/Nginx-Lua-Anti-DDoS/blob/main/Captcha1.jpg)
+![Captcha Page Fail](https://github.com/ProfessorJarIO/Nginx-Lua-Anti-DDoS/blob/main/Captcha2.jpg)
+![Captcha Page Success](https://github.com/ProfessorJarIO/Nginx-Lua-Anti-DDoS/blob/main/Captcha3.jpg)
+![Captcha Cookies](https://github.com/ProfessorJarIO/Nginx-Lua-Anti-DDoS/blob/main/Cookies.jpg)
 
 
 ## What I changed:
