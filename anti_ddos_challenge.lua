@@ -1640,7 +1640,7 @@ window.onload = function() {
         }
 
         const xhr = new XMLHttpRequest();
-        const url = '192.168.56.135/'; // Replace with your server URL
+        //const url = '192.168.56.135/'; // Replace with your server URL; Do we even use this???
 
         xhr.open("POST", ']]..request_uri..[[', true);
 
