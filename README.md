@@ -32,7 +32,7 @@ lua_shared_dict banIP 10m;
 lua_shared_dict track_requests 10m;
 ```
 
-The script is solely for Nginx users. The script also works on Linux, since it grabs from `/dev/urandom`
+The script is solely for Nginx users. The script also only works on Linux, since it grabs from `/dev/urandom`
 
 Mostly everything is the same, so if you want to modify the session length, then you can refer to C0nw0nk's original script guide.
 
