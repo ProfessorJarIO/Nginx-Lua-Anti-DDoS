@@ -20,6 +20,22 @@ ALL CREDIT GOES TOWARDS THE ORIGINAL CREATOR: (https://github.com/C0nw0nk/Nginx-
 - openresty/lua-resty-string
 - fffonion/lua-resty-openssl
 
+## Security
+
+It's important that you change the default `secret_password` and/or `secret_salt` in the anti_ddos_challenge.lua file. That way, attackers will not be able to bypass the encryption used to generate the rayID and other cookies.
+
+Go to this portion of the file in `anti_ddos_challenge.lua`:
+
+```
+-- AES 256 CBC with 5 rounds of SHA-512 for the key
+-- and a salt of "MySalt!!"
+-- Note: salt can be either nil or exactly 8 characters long
+local secret_password = "AKeyForAES-256-CBC" -- CHANGE THIS VALUE
+local secret_salt = "MySalt!!" -- CHANGE THIS VALUE
+```
+
+Where you see "CHANGE THIS VALUE" is where you will put your new `secret_password` and `secret_salt`.
+
 ## Changes you need to make in the nginx.conf file
 
 Add this line; This implements the anti-ddos script itself:
